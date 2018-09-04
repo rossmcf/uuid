@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Print(uuid.NewV4().String())
+	fmt.Print(uuid.Must(uuid.NewV4()).String())
 }
